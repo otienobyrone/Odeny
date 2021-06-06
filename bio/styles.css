@@ -1,0 +1,43 @@
+body{background-image:url("https://images.all-free-download.com/images/graphicthumb/abstract_swirl_floral_background_vector_148073.jpg");
+	flex-direction:column;
+	text-align:center;
+}
+main{
+flex-direction:row;
+flex:auto;
+}
+article{
+	flex:2;
+}
+aside{
+flex:1;
+}
+article,aside{
+overflow-y:auto:
+}
+
+img{width:400px; height:400px;
+}
+ul {
+  list-style-type: none;
+  margin: 25;
+  padding: 25;
+  overflow: hidden;
+  background-color:#006400;
+  margin-top:25px;
+}
+
+li {
+  float: left;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+li, a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+
