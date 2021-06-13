@@ -1,19 +1,25 @@
-body{background-image:url("https://images.all-free-download.com/images/graphicthumb/abstract_swirl_floral_background_vector_148073.jpg");
-	flex-direction:column;
-	text-align:center;
+body{background-image:url("https://cdn.pixabay.com/photo/2018/02/23/11/41/spring-background-3175322__340.jpg");
+flex-direction:column;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350%;
 }
 main{
 flex-direction:row;
 flex:auto;
 }
-article{
-	flex:2;
+article{flex:2;
+	margin:auto;
+	width:500px;
 }
 aside{
 flex:1;
 }
-article,aside{
-overflow-y:auto:
+article ,aside{
+overflow-y:auto;
 }
 
 img{width:400px; height:400px;
@@ -28,9 +34,10 @@ ul {
 }
 
 li {
-  float: left;
+  float:left;
   padding-left:30px;
   padding-right:30px;
+  font-weight:bold;
 }
 
 li, a {
@@ -39,5 +46,12 @@ li, a {
   text-align: center;
   text-decoration: none;
 }
-
-
+.logo{
+font-size: 25px;
+font-family: Cursive,"Lucida Handwriting";
+font-weight: bold;
+}
+footer{
+margin:auto;
+width:500px;
+}
